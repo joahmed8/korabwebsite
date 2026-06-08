@@ -3,149 +3,206 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Services | The Flow State</title>
+    <title>Services | Korab Idrizi</title>
     <meta
       name="description"
-      content="Individual therapy, performance coaching, and psychological assessments for high performers."
+      content="Personal development coaching, performance coaching, and public speaking for high performers."
     />
-    <link rel="stylesheet" href="styles.css?v=premium-scroll-effects" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Inter:wght@400;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css?v=compliance-cleanup" />
   </head>
   <body>
     <div class="scroll-progress" data-scroll-progress aria-hidden="true"></div>
     <header class="site-header" data-header>
-      <a class="brand" href="index.html" aria-label="The Flow State home">
-        <img src="assets/logo-transparent-cropped.png" alt="The Flow State logo" />
+      <a class="brand" href="/home" aria-label="Korab Idrizi home">
+        <span class="brand-wordmark">Korab Idrizi</span>
       </a>
       <nav class="nav" aria-label="Primary navigation">
-        <a href="index.html">Home</a>
-        <a href="index.html#about">About</a>
-        <a href="mission.html">Mission</a>
-        <a href="services.html">Services</a>
-        <a href="index.html#newsletter">Newsletter</a>
-        <a href="index.html#contact">Contact</a>
+        <a href="/home">Home</a>
+        <a href="/about">About</a>
+        <a href="/mission">Mission</a>
+        <a href="/services">Services</a>
+        <a href="/home#newsletter">Newsletter</a>
+        <a href="/home#contact">Contact</a>
       </nav>
-      <a class="header-cta" href="index.html#contact">Schedule a consultation</a>
+      <div class="header-socials" aria-label="Social links">
+        <a href="https://www.linkedin.com/in/korabidrizi/" aria-label="Korab Idrizi on LinkedIn">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M5.2 8.9h3.2v10.3H5.2V8.9Zm1.6-5.1a1.9 1.9 0 1 1 0 3.8 1.9 1.9 0 0 1 0-3.8Zm3.6 5.1h3.1v1.4h.1c.4-.8 1.5-1.7 3-1.7 3.2 0 3.8 2.1 3.8 4.9v5.7h-3.2v-5c0-1.2 0-2.7-1.7-2.7s-1.9 1.3-1.9 2.6v5.1h-3.2V8.9Z" />
+          </svg>
+        </a>
+        <a href="https://www.instagram.com/thekorabidrizi/" aria-label="Korab Idrizi on Instagram">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M7.8 3.7h8.4a4.1 4.1 0 0 1 4.1 4.1v8.4a4.1 4.1 0 0 1-4.1 4.1H7.8a4.1 4.1 0 0 1-4.1-4.1V7.8a4.1 4.1 0 0 1 4.1-4.1Zm8.2 1.9H8A2.4 2.4 0 0 0 5.6 8v8A2.4 2.4 0 0 0 8 18.4h8a2.4 2.4 0 0 0 2.4-2.4V8A2.4 2.4 0 0 0 16 5.6Zm-4 3.1a3.3 3.3 0 1 1 0 6.6 3.3 3.3 0 0 1 0-6.6Zm0 1.9a1.4 1.4 0 1 0 0 2.8 1.4 1.4 0 0 0 0-2.8Zm4-3a.8.8 0 1 1 0 1.6.8.8 0 0 1 0-1.6Z" />
+          </svg>
+        </a>
+        <a href="https://www.tiktok.com/@korabidrizi" aria-label="Korab Idrizi on TikTok">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M16.3 4.2c.5 2.1 1.8 3.4 3.8 3.6v3.1a6.9 6.9 0 0 1-3.7-1.2v5.1c0 3.1-2.1 5.4-5.2 5.4a5 5 0 0 1-5.2-5.1c0-3.4 2.9-5.7 6.2-5.1v3.2c-1.5-.5-3 .3-3 1.8 0 1.2.9 2.1 2 2.1 1.3 0 2.1-.8 2.1-2.5V4.2h3Z" />
+          </svg>
+        </a>
+      </div>
     </header>
 
     <main>
-      <section class="services-hero scroll-reveal">
-        <p class="eyebrow">Services</p>
-        <h1>High-level support for high performers.</h1>
-        <p>
-          Therapy, coaching, and assessment designed for people seeking
-          resilience, clarity, performance, and a more meaningful relationship
-          with achievement.
-        </p>
-      </section>
-
-      <section class="services-jump scroll-reveal" aria-label="Services navigation">
-        <a href="#therapy">Therapy</a>
-        <a href="#coaching">Coaching</a>
-        <a href="#assessments">Assessments</a>
-      </section>
-
-      <section class="service-showcase scroll-reveal" id="therapy">
-        <div class="service-copy">
-          <p class="section-kicker">01 / Individual Therapy</p>
-          <h2>Deepen self-understanding and strengthen mental health.</h2>
+      <section class="services-editorial-hero scroll-reveal">
+        <div class="services-editorial-copy">
+          <p class="eyebrow">Services</p>
+          <h1>Care for high performers who want more than coping.</h1>
           <p>
-            Through individual therapy, clients uncover patterns shaping their
-            lives, build tools for resilience, and create space for personal
-            growth without letting go of ambition.
+            Personal development, performance coaching, and speaking for people pursuing excellence
+            without losing clarity, resilience, or meaning.
           </p>
+        </div>
+        <figure class="services-hero-media parallax-media">
+          <img
+            src="assets/IMG_1281.JPG"
+            alt="Korab Idrizi running during an endurance event"
+          />
+          <figcaption>Performance-minded care, grounded in lived endurance.</figcaption>
+        </figure>
+      </section>
+
+      <section class="services-selector scroll-reveal" aria-label="Services navigation">
+        <a href="#development">
+          <span>01</span>
+          <strong>Development</strong>
+          <em>Deepen self-understanding</em>
+        </a>
+        <a href="#coaching">
+          <span>02</span>
+          <strong>Coaching</strong>
+          <em>Build performance systems</em>
+        </a>
+        <a href="#speaking">
+          <span>03</span>
+          <strong>Speaking</strong>
+          <em>Move the room</em>
+        </a>
+      </section>
+
+      <section class="service-chapter service-chapter-development scroll-reveal" id="development">
+        <div class="service-chapter-copy">
+          <p class="section-kicker">01 / Personal Development Coaching</p>
+          <h2>For the person behind the performance.</h2>
+          <p>
+            Personal development coaching creates room to understand the patterns,
+            pressure, relationships, and internal demands shaping your life.
+            The work is reflective and structured, but it does not ask you to
+            abandon ambition in order to build well-being.
+          </p>
+          <a class="text-link dark-link" href="/home#contact">Request a consultation</a>
+        </div>
+        <div class="service-fit">
+          <span>Best for</span>
           <ul>
-            <li>Anxiety, stress, and pressure</li>
+            <li>Stress, pressure, and self-command</li>
             <li>Identity, purpose, and transition</li>
             <li>Relationships and emotional patterns</li>
             <li>Balance between achievement and well-being</li>
           </ul>
-          <a class="text-link dark-link" href="index.html#contact">Request a consultation</a>
         </div>
-        <img
-          src="https://images.unsplash.com/photo-1693578538512-fc66f318c833?auto=format&fit=crop&w=1200&q=85"
-          class="parallax-media"
-          alt="Refined therapy room"
-        />
       </section>
 
-      <section class="service-showcase service-showcase-dark scroll-reveal" id="coaching">
-        <div class="service-copy">
+      <section class="service-chapter service-chapter-coaching scroll-reveal" id="coaching">
+        <figure class="service-chapter-media parallax-media">
+          <img
+            src="assets/korab-boston-college-football-2019-10-06-t-14-12-39-384-z.JPG"
+            alt="Korab Idrizi playing football at Boston College"
+          />
+          <figcaption>Lived performance under pressure.</figcaption>
+        </figure>
+        <div class="service-chapter-copy">
           <p class="section-kicker">02 / Performance Coaching</p>
           <h2>Build the mindset and systems behind high performance.</h2>
           <p>
             Performance coaching is designed for athletes, professionals,
-            entrepreneurs, and creatives who want to sharpen focus, recover
-            better, and perform with greater clarity.
+            entrepreneurs, and creatives who want sharper focus, stronger
+            recovery, and a healthier relationship with the standard they hold
+            themselves to.
           </p>
-          <ul>
-            <li>Confidence, focus, and composure</li>
-            <li>Pressure, recovery, and motivation</li>
-            <li>Goal architecture and accountability</li>
-            <li>Performance identity and fulfillment</li>
-          </ul>
-          <a class="text-link dark-link" href="index.html#contact">Request a consultation</a>
+          <div class="service-outcomes">
+            <span>Focus areas</span>
+            <p>Confidence / composure / recovery / accountability / fulfillment</p>
+          </div>
+          <a class="text-link light-link" href="/home#contact">Request a consultation</a>
         </div>
-        <img
-          src="assets/korab-boston-college-football-2019-10-06-t-14-03-14-056-z.JPG"
-          class="parallax-media"
-          alt="Korab Idrizi playing football at Boston College"
-        />
       </section>
 
-      <section class="service-showcase scroll-reveal" id="assessments">
-        <div class="service-copy">
-          <p class="section-kicker">03 / Psychological Assessments</p>
-          <h2>Clarify the picture so care can move forward.</h2>
+      <section class="service-chapter service-chapter-speaking scroll-reveal" id="speaking">
+        <div class="service-chapter-copy">
+          <p class="section-kicker">03 / Public Speaking</p>
+          <h2>Invite Korab to speak to the people you lead.</h2>
           <p>
-            Psychological assessments help clarify diagnoses, guide treatment,
-            and increase self-understanding when a more complete picture is
-            needed.
+            Korab is available for teams, campuses, organizations, and events
+            looking for a grounded voice on mindset, performance, and the
+            inner life of achievement.
           </p>
-          <ul>
-            <li>ADHD evaluations</li>
-            <li>Autism spectrum evaluations</li>
-            <li>Personality assessment</li>
-            <li>Full testing batteries</li>
-          </ul>
-          <a class="text-link dark-link" href="index.html#contact">Request a consultation</a>
+          <a class="text-link dark-link" href="/home#contact">Invite Korab to speak</a>
         </div>
-        <img
-          src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1200&q=85"
-          class="parallax-media"
-          alt="Assessment notes and laptop on desk"
-        />
+        <div class="speaking-index" aria-label="Public speaking topics">
+          <div>
+            <span>Men's mental health</span>
+            <p>Honest conversations about pressure, identity, and emotional well-being.</p>
+          </div>
+          <div>
+            <span>Dating and relationships</span>
+            <p>How self-understanding shapes connection, intimacy, and trust.</p>
+          </div>
+          <div>
+            <span>Family issues</span>
+            <p>Responsibility, communication, and growth inside family systems.</p>
+          </div>
+          <div>
+            <span>Mental performance</span>
+            <p>Sports and executive performance through resilience, focus, and recovery.</p>
+          </div>
+          <div>
+            <span>Academic excellence</span>
+            <p>Discipline, standards, and sustainable achievement for students.</p>
+          </div>
+        </div>
       </section>
 
       <section class="services-cta scroll-reveal">
         <p class="section-kicker">Start here</p>
         <h2>Not sure which service fits?</h2>
         <p>
-          A consultation can help clarify whether therapy, coaching, or
-          assessment is the strongest next step.
+          A consultation can help clarify whether development coaching,
+          performance coaching, or speaking is the strongest next step.
         </p>
-        <a class="button button-light" href="index.html#contact">Schedule a consultation</a>
+        <a class="button button-light" href="/home#contact">Schedule a consultation</a>
       </section>
     </main>
 
     <footer class="footer">
       <div class="footer-brand">
-        <img src="assets/logo-transparent-cropped.png" alt="The Flow State logo" />
-        <p>The Flow State</p>
-        <span>Psychology & Performance</span>
+        <div class="footer-monogram" aria-hidden="true">KI</div>
+        <p>Korab Idrizi</p>
+        <span>Mindset. Performance. Meaning.</span>
+        <small>
+          Coaching is not psychotherapy, counseling, diagnosis, or treatment for
+          a mental health condition.
+        </small>
       </div>
       <nav aria-label="Footer navigation">
         <strong>Practice</strong>
-        <a href="index.html#about">About</a>
-        <a href="mission.html">Mission</a>
-        <a href="services.html">Services</a>
-        <a href="index.html#newsletter">Newsletter</a>
-        <a href="index.html#contact">Contact</a>
+        <a href="/about">About</a>
+        <a href="/mission">Mission</a>
+        <a href="/services">Services</a>
+        <a href="/home#newsletter">Newsletter</a>
+        <a href="/home#contact">Contact</a>
       </nav>
       <nav aria-label="Services">
         <strong>Services</strong>
-        <a href="services.html#therapy">Individual Therapy</a>
-        <a href="services.html#coaching">Performance Coaching</a>
-        <a href="services.html#assessments">Psychological Assessments</a>
+        <a href="/services#development">Personal Development Coaching</a>
+        <a href="/services#coaching">Performance Coaching</a>
+        <a href="/services#speaking">Public Speaking</a>
       </nav>
       <div class="footer-contact">
         <strong>Connect</strong>
@@ -171,6 +228,6 @@
       </div>
     </footer>
 
-    <script src="script.js?v=premium-scroll-effects"></script>
+    <script src="script.js?v=premium-scroll-effects-fallback"></script>
   </body>
 </html>

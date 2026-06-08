@@ -1,0 +1,17 @@
+Options -MultiViews
+RewriteEngine On
+
+# Make the homepage available as /home.
+RewriteRule ^home/?$ index.html [L]
+
+# Redirect direct .html visits to clean URLs.
+RewriteCond %{THE_REQUEST} \s/+index\.html[\s?] [NC]
+RewriteRule ^index\.html$ /home [R=301,L]
+
+RewriteCond %{THE_REQUEST} \s/+(.+?)\.html[\s?] [NC]
+RewriteRule ^(.+?)\.html$ /$1 [R=301,L]
+
+# Serve extensionless page URLs from their matching .html files.
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^(.+?)/?$ $1.html [L]

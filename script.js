@@ -7,9 +7,9 @@ const parallaxItems = document.querySelectorAll(".parallax-media");
 const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
 
 const services = {
-  therapy: {
-    label: "Individual Therapy",
-    title: "Private, focused therapy for high-achieving lives.",
+  development: {
+    label: "Personal Development Coaching",
+    title: "Private, focused coaching for high-achieving lives.",
     body:
       "Deepen self-understanding, identify patterns, and build emotional resilience without flattening ambition or drive.",
     bullets: [
@@ -29,15 +29,15 @@ const services = {
       "Pressure, focus, confidence, and recovery",
     ],
   },
-  assessment: {
-    label: "Psychological Assessments",
-    title: "Clearer answers for diagnosis, treatment, and self-understanding.",
+  speaking: {
+    label: "Public Speaking",
+    title: "Bring a grounded voice on mindset and performance to your event.",
     body:
-      "Assessment services can help clarify ADHD, autism spectrum concerns, personality patterns, and broader diagnostic questions when a fuller picture is needed.",
+      "Korab speaks to teams, campuses, organizations, and events on mental health, relationships, family systems, mental performance, and academic excellence.",
     bullets: [
-      "ADHD and autism evaluations",
-      "Personality and diagnostic clarification",
-      "Practical recommendations and reports",
+      "Men's mental health and emotional well-being",
+      "Dating, relationships, and family issues",
+      "Sports, executive, and academic performance",
     ],
   },
 };
